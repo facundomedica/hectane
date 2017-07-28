@@ -16,6 +16,7 @@ import (
 var dkimInstances = make(map[string]*dkim.DKIM)
 
 func dkimFor(from string, config *Config) (*dkim.DKIM, error) {
+	dkimInstances = make(map[string]*dkim.DKIM)
 	emailAddress, err := mail.ParseAddress(from)
 	if err != nil {
 		return nil, err
