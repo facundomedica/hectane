@@ -1,7 +1,7 @@
 package email
 
 import (
-	"github.com/hectane/hectane/queue"
+	"github.com/facundomedica/hectane/queue"
 	"github.com/kennygrant/sanitize"
 
 	"bytes"

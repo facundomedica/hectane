@@ -1,8 +1,8 @@
 package email
 
 import (
+	"github.com/facundomedica/hectane/queue"
 	"github.com/hectane/go-attest"
-	"github.com/hectane/hectane/queue"
 
 	"bytes"
 	"errors"

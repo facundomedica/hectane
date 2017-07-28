@@ -1,8 +1,8 @@
 package smtp
 
 import (
+	"github.com/facundomedica/hectane/version"
 	"github.com/hectane/go-smtpsrv"
-	"github.com/hectane/hectane/version"
 
 	"time"
 )

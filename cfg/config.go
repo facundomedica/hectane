@@ -1,10 +1,10 @@
 package cfg
 
 import (
-	"github.com/hectane/hectane/api"
-	"github.com/hectane/hectane/log"
-	"github.com/hectane/hectane/queue"
-	"github.com/hectane/hectane/smtp"
+	"github.com/facundomedica/hectane/api"
+	"github.com/facundomedica/hectane/log"
+	"github.com/facundomedica/hectane/queue"
+	"github.com/facundomedica/hectane/smtp"
 
 	"encoding/json"
 	"flag"

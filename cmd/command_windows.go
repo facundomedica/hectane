@@ -1,9 +1,8 @@
 package cmd
 
 import (
-	"github.com/hectane/go-acl"
-	"github.com/hectane/hectane/cfg"
-	"github.com/hectane/hectane/exec"
+	"github.com/facundomedica/hectane/cfg"
+	"github.com/facundomedica/hectane/exec"
 	"github.com/kardianos/osext"
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/svc"
