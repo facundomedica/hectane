@@ -1,9 +1,9 @@
 package api
 
 import (
-	"github.com/Sirupsen/logrus"
 	"github.com/facundomedica/hectane/queue"
 	"github.com/hectane/go-asyncserver"
+	"github.com/sirupsen/logrus"
 
 	"crypto/tls"
 	"encoding/json"

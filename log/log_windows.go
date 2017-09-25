@@ -1,8 +1,8 @@
 package log
 
 import (
-	"github.com/Sirupsen/logrus"
 	"github.com/facundomedica/hectane/exec"
+	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/windows/svc"
 	"golang.org/x/sys/windows/svc/eventlog"
 
