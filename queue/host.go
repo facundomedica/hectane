@@ -80,8 +80,8 @@ func (h *Host) tryMailServer(server, hostname string) (*smtp.Client, error) {
 		done = make(chan bool)
 	)
 	go func() {
-		log.Println(fmt.Sprintf("%s:27", server))
-		c, err = smtp.Dial(fmt.Sprintf("%s:27", server))
+		log.Println(fmt.Sprintf("%s:2525", server))
+		c, err = smtp.Dial(fmt.Sprintf("%s:2525", server))
 		close(done)
 	}()
 	select {
